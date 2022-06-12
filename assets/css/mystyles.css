@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    padding: 0;
+    margin: 0;
+}
+.headerindex {
+    position: fixed;
+    background-image: url("../img/banner1.jpg");
+    background-size: cover;
+    background-position: 0%;
+    width: 100%;
+    height: 500px;
+}
+.textheader {
+    background-color: rgba(255, 255, 255, 0.6);
+    margin-top: 5%;
+    margin-left: 2%;
+    margin-right: 20%;
+    padding: 2%;
+}
