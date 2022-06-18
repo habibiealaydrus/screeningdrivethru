@@ -12,12 +12,7 @@
         </div>
     </div>
     <div class="row">
-        <?php include 'our_services.php' ?>
-        <?php include 'ourpatients.php' ?>
-    </div>
-</div>
-<div class="container-fluid">
-    <div class="row">
-
+        <?php include 'our_services.php'; ?>
+        <?php include 'ourpatients.php'; ?>
     </div>
 </div>

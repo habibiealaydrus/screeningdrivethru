@@ -4,7 +4,7 @@ body {
     font-family: 'Lato', sans-serif;
 }
 .navbar-custom {
-    background-color: rgb(217, 241, 136);
+    background-color: #F6E3C5;
 }
 .headerindex {
     background-image: url("../img/banner1.jpg");
@@ -20,16 +20,41 @@ body {
     padding: 5%;
 }
 .services {
-    background-color: rgba(159, 193, 49, 1);
+    background-color: rgb(108, 196, 161);
     height: 500px;
     padding: 2%;
 }
 .ourpatients {
-    background-color: rgb(211, 235, 132);
+    background-color: #A0D995;
     height: 500px;
     padding: 2%;
 }
 .typeservices {
     display: flex;
     justify-content: space-between;
+}
+.footer {
+    background-color: rgb(76, 172, 188);
+    bottom: 0%;
+    padding: 1%;
+}
+.creator {
+    text-align: center;
+}
+.littlenav {
+    text-align: right;
+    list-style: none;
+    color: #ffff;
+}
+.littlenav.li {
+    text-decoration: none;
+    list-style: none;
+}
+.littlenav>li>a {
+    text-decoration: none;
+    color: white;
+}
+.littlenav>li>a:hover {
+    text-decoration: none;
+    color: black;
 }
