@@ -1,13 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Lato', sans-serif;
 }
-body, html {
-    padding: 0;
-    margin: 0;
+.navbar-custom {
+    background-color: rgb(217, 241, 136);
 }
 .headerindex {
-    position: fixed;
     background-image: url("../img/banner1.jpg");
     background-size: cover;
     background-position: 0%;
@@ -15,9 +14,22 @@ body, html {
     height: 500px;
 }
 .textheader {
-    background-color: rgba(255, 255, 255, 0.6);
     margin-top: 5%;
-    margin-left: 2%;
-    margin-right: 20%;
+    width: 90%;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 5%;
+}
+.services {
+    background-color: rgba(159, 193, 49, 1);
+    height: 500px;
     padding: 2%;
+}
+.ourpatients {
+    background-color: rgb(211, 235, 132);
+    height: 500px;
+    padding: 2%;
+}
+.typeservices {
+    display: flex;
+    justify-content: space-between;
 }
